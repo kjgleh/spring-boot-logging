@@ -29,6 +29,9 @@ dependencies {
      * 코틀린 로깅 라이브러리 추가
      */
     implementation("io.github.oshai:kotlin-logging-jvm:5.1.0")
+
+    // 스웨거 의존성 추가
+    implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0")
 }
 
 tasks.withType<KotlinCompile> {
